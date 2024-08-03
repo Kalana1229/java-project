@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="javax.xml.parsers.DocumentBuilderFactory"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="com.student.util.DBConnection"/>
+    <fullyQualifiedTypeName name="com.student.util.QueryUtil"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.student.util.CommonConstants"/>
+    <fullyQualifiedTypeName name="com.student.service.IStudentService"/>
+    <fullyQualifiedTypeName name="com.student.service.StudentServiceImpl"/>
+    <fullyQualifiedTypeName name="com.customer.service.ICustomerService"/>
+</qualifiedTypeNameHistroy>

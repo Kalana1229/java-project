@@ -1,0 +1,10 @@
+127.0.0.1 - - [20/Apr/2024:22:40:03 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [20/Apr/2024:22:40:04 +0530] "GET /student-web-app/ HTTP/1.1" 200 489
+0:0:0:0:0:0:0:1 - - [20/Apr/2024:22:40:04 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [20/Apr/2024:22:40:11 +0530] "POST /student-web-app/AddStudentServlet HTTP/1.1" 200 2348
+0:0:0:0:0:0:0:1 - - [20/Apr/2024:22:40:11 +0530] "POST /student-web-app/AddStudentServlet HTTP/1.1" 200 2348
+127.0.0.1 - - [20/Apr/2024:23:00:14 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [20/Apr/2024:23:00:15 +0530] "GET /student-web-app/ HTTP/1.1" 200 489
+0:0:0:0:0:0:0:1 - - [20/Apr/2024:23:00:24 +0530] "POST /student-web-app/AddStudentServlet HTTP/1.1" 200 5790
+0:0:0:0:0:0:0:1 - - [20/Apr/2024:23:00:24 +0530] "POST /student-web-app/AddStudentServlet HTTP/1.1" 200 5790
+0:0:0:0:0:0:0:1 - - [20/Apr/2024:23:00:26 +0530] "POST /student-web-app/GetStudentServlet%%3E HTTP/1.1" 400 834

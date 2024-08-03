@@ -1,0 +1,15 @@
+127.0.0.1 - - [17/May/2024:16:38:25 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [17/May/2024:16:38:26 +0530] "GET /manage-customer/HomeScreen.jsp HTTP/1.1" 200 5999
+0:0:0:0:0:0:0:1 - - [17/May/2024:16:38:27 +0530] "GET /manage-customer/Image/home5.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [17/May/2024:16:38:27 +0530] "GET /manage-customer/Image/home3.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [17/May/2024:16:38:27 +0530] "GET /manage-customer/Image/home44.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [17/May/2024:16:38:27 +0530] "GET /manage-customer/Image/home22.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [17/May/2024:16:38:27 +0530] "GET /manage-customer/Image/2.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [17/May/2024:16:38:27 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [17/May/2024:16:38:35 +0530] "GET /manage-customer/login.jsp HTTP/1.1" 200 2060
+0:0:0:0:0:0:0:1 - - [17/May/2024:16:38:35 +0530] "GET /manage-customer/Image/images.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [17/May/2024:16:38:44 +0530] "POST /manage-customer/ViewVehicelService.jsp HTTP/1.1" 200 5002
+0:0:0:0:0:0:0:1 - - [17/May/2024:16:38:44 +0530] "GET /manage-customer/img/blurred-car-repair-shop.jpg HTTP/1.1" 404 806
+0:0:0:0:0:0:0:1 - - [17/May/2024:16:38:46 +0530] "GET /manage-customer/index.jsp HTTP/1.1" 200 6864
+0:0:0:0:0:0:0:1 - - [17/May/2024:16:38:54 +0530] "POST /manage-customer/AddCustomerServlet HTTP/1.1" 200 2655
+0:0:0:0:0:0:0:1 - - [17/May/2024:16:38:57 +0530] "POST /manage-customer/index.jsp HTTP/1.1" 200 6864

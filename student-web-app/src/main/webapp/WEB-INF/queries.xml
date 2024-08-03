@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<queries>
+
+	<query id="create_student_table">
+		<![CDATA[
+			CREATE TABLE students(
+				studentId varchar(10) NOT NULL,
+				firstName varchar(20),
+				lastName varchar(20),
+				address varchar(50),
+				mobileNo varchar(10),
+				PRIMARY KEY (studentId)
+			);
+		]]>
+	</query>
+	
+	<query id="insert_student">
+		<![CDATA[
+			INSERT INTO students(studentId,firstName,lastName,address,mobileNo)
+			VALUES(?,?,?,?,?)
+		]]>
+	</query>
+	
+	<query id="get_student_ids">
+		<![CDATA[
+			SELECT studentId FROM students;
+		]]>
+	</query>
+	
+	<query id="get_student_all_students">
+		<![CDATA[
+			SELECT * FROM students;
+		]]>
+	</query>
+	
+	<query id="get_student_by_id">
+		<![CDATA[
+			SELECT * FROM students WHERE studentId = ?; 
+		]]>
+	</query>
+	
+	<query id="update_student">
+		<![CDATA[
+			UPDATE students as s
+			SET s.firstName = ?, s.lastName = ?, s.address = ?, s.mobileNo = ?
+			WHERE s.studentId = ?;
+		]]>
+	</query>
+	
+	<query id="delete_student">
+		<![CDATA[
+			DELETE FROM students WHERE studentId = ?
+		]]>
+	</query>
+	
+</queries>

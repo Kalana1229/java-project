@@ -1,0 +1,11 @@
+127.0.0.1 - - [04/May/2024:15:03:08 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [04/May/2024:15:03:12 +0530] "GET /manage-customer/ HTTP/1.1" 200 1618
+0:0:0:0:0:0:0:1 - - [04/May/2024:15:03:12 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [04/May/2024:15:03:47 +0530] "POST /manage-customer/AddCustomerServlet HTTP/1.1" 200 2436
+0:0:0:0:0:0:0:1 - - [04/May/2024:15:03:53 +0530] "POST /manage-customer/DeleteCustomerServlet HTTP/1.1" 200 1610
+0:0:0:0:0:0:0:1 - - [04/May/2024:15:03:54 +0530] "POST /manage-customer/GetCustomerServlet HTTP/1.1" 200 1624
+0:0:0:0:0:0:0:1 - - [04/May/2024:15:03:59 +0530] "POST /manage-customer/UpdateCustomerServlet HTTP/1.1" 200 1610
+0:0:0:0:0:0:0:1 - - [04/May/2024:15:04:04 +0530] "POST /manage-customer/GetCustomerServlet HTTP/1.1" 200 1624
+0:0:0:0:0:0:0:1 - - [04/May/2024:15:04:13 +0530] "POST /manage-customer/UpdateCustomerServlet HTTP/1.1" 200 1610
+0:0:0:0:0:0:0:1 - - [04/May/2024:15:04:16 +0530] "POST /manage-customer/GetCustomerServlet HTTP/1.1" 200 1624
+0:0:0:0:0:0:0:1 - - [04/May/2024:15:04:29 +0530] "POST /manage-customer/UpdateCustomerServlet HTTP/1.1" 200 1610

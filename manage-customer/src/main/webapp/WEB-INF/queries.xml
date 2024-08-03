@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<queries>
+
+	<query id="create_customer_table">
+		<![CDATA[
+			CREATE TABLE customers(
+				customerId varchar(10) NOT NULL,
+				firstName varchar(20),
+				lastName varchar(20),
+				address varchar(50),
+				mobileNo varchar(10),
+				PRIMARY KEY (customerId)
+			);
+		]]>
+		
+	</query>
+	
+	<query id="insert_customer">
+		<![CDATA[
+		
+			INSERT INTO customers(customerId,firstName,lastName,address,mobileNo)
+			VALUES(?,?,?,?,?);
+			
+		]]>
+		
+	</query>
+	
+	<query id="get_customer_ids">
+		<![CDATA[
+			SELECT customerId FROM customers;
+		]]>
+	</query>
+	
+	<query id="get_customer_all_customers">
+		<![CDATA[
+			SELECT * FROM customers;
+		]]>
+	</query>
+	
+	<query id="get_customer_by_id">
+		<![CDATA[
+			SELECT * FROM customers WHERE customerId = ?;
+		]]>
+	</query>
+		
+	<query id="update_customer">
+		<![CDATA[
+			UPDATE customers as c
+			SET c.firstName = ?, c.lastName = ?, c.address = ?, c.mobileNo = ?
+			WHERE c.customerId = ?;
+		]]>
+	</query>
+	
+	<query id="delete_customer">
+		<![CDATA[
+			DELETE FROM customers WHERE customerId = ?
+		]]>
+	</query>
+</queries>
